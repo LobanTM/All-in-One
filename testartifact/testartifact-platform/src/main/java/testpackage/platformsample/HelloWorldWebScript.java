@@ -51,7 +51,14 @@ public class HelloWorldWebScript extends DeclarativeWebScript {
 
         model.put("fromAD", "from AD");              
         DemoComponent demo = new DemoComponent();
-        logger.debug("-- TEST1 DEMO -- "+ demo); 
+        //logger.debug("-- TEST1 DEMO -- "+ demo);
+        
+        try {
+			demo.executeInternal();
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         
         model.put("fromAlfresco",  model.get("fromJava"));        
         
