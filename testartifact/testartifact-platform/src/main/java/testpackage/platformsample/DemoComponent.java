@@ -58,12 +58,7 @@ public class DemoComponent extends AbstractModuleComponent {
         System.out.println(" |   \\ ___ __  __ ___   ");
         System.out.println(" |  | | __\\  \\/  | _ \\   ");
         System.out.println(" |___/\\___/__||__|___/   ");
-        //System.out.println("Test debug logging. Number of nodes in Company Home = " + getCompanyHome());
-        //NodeService ns = new NodeService();
-        //System.out.println("Test debug logging. Number of nodes in Company Home = " + nodeLocatorService.getNode("companyhome", null, null));        
-        //nodeService = serviceRegistry.getNodeService();
-        //nodeLocatorService = serviceRegistry.getNodeLocatorService();
-        
+                
         //System.out.println("Test debug logging. Number of nodes in Company Home = " + childNodesCount(getCompanyHome()));
         
         //logger.debug("Test debug logging. Congratulation your JAR Module is working");
