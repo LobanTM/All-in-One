@@ -59,7 +59,7 @@ public class DemoComponent extends AbstractModuleComponent {
         System.out.println(" |  | | __\\  \\/  | _ \\   ");
         System.out.println(" |___/\\___/__||__|___/   ");
                 
-        //System.out.println("Test debug logging. Number of nodes in Company Home = " + childNodesCount(getCompanyHome()));
+        System.out.println("Test debug logging. Number of nodes in Company Home = " + childNodesCount(getCompanyHome()));
         
         //logger.debug("Test debug logging. Congratulation your JAR Module is working");
         //logger.info("This is only for information purposes. Better remove me from the log in Production");

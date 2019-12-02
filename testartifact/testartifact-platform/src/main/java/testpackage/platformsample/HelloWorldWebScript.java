@@ -50,7 +50,10 @@ public class HelloWorldWebScript extends DeclarativeWebScript {
         logger.debug(" \\___|   |_|  |___||____/  |_|     ");
 
         model.put("fromAD", "from AD");              
-        model.put("fromAlfresco",  model.get("fromJava"));//demo);//.getCompanyHome());        
+        DemoComponent demo = new DemoComponent();
+        logger.debug("-- TEST1 DEMO -- "+ demo); 
+        
+        model.put("fromAlfresco",  model.get("fromJava"));        
         
         logger.debug("Your 'TEST' Web Script was called! =======================");
         
